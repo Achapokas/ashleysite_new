@@ -1,0 +1,173 @@
+/* Design brought to you by Working Michael */
+/* Development brought to you by Ashley Chapokas */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Begin custom styles */
+
+body{
+	font-size:100%;
+	font-family: 'Quattrocento Sans', sans-serif;
+	color:#000;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+a{
+	color:#000;
+}
+
+main#container{
+	width:1180px;
+	margin:0 auto;
+}
+
+header{
+	margin: 50px 0;
+}
+
+ul.main-navigation{
+	text-align: center;
+}
+.main-navigation a{
+	display:inline-block;
+	text-decoration:none;
+	padding: 0px 80px;
+	font-size: 17px;
+	text-transform:uppercase;
+}
+
+.main-navigation li:hover{
+	border-bottom:2px solid black;
+	padding-bottom:5px;
+
+}
+
+/* HOME */
+
+body.introduction-background{
+	background-image: url(backgrounds/ANS_1-1.png);z
+}
+h1.introduction-hi-block{
+	font-size: 60px;
+	padding:8px 3px;
+	color: #fff;
+	background-color: #000;
+	text-transform: capitalize;
+	display: inline-block;
+	float: left;
+}
+
+div.introduction-paragraph{
+	font-size: 50px;
+	line-height: 60px;
+}
+
+div.introduction-paragraph.left{
+	width: 500px;
+}
+
+div.introduction-paragraph.right{
+	width: 450px;
+}
+
+div.introduction-paragraph.left,
+div.introduction-paragraph.right,
+div.victory{
+	float:left;
+}
+
+div.victory{
+	width: inherit;
+	display: inline-block;
+}
+div.hero-image{
+	position: relative;
+}
+div.hover-image {
+	display: none;
+	position: absolute;
+	top: 0;
+}
+
+div.hero-image:hover > div.hover-image{
+	display:block !important;
+}
+
+footer{
+	clear:both;
+	text-align: right;
+	font-size: 17px;;
+}
+
+.footer-content li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.footer-content li:first-child{
+	margin: 0 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
